@@ -43,7 +43,7 @@
 <div class="bottom"><div class="bottom-inner"><div class="sum-mini"><span>ยอดรวม</span><b id="miniTotal">0 บาท</b></div><button class="order" id="orderBtn" disabled>💬 สั่งผ่าน LINE</button></div></div>
 
 <script>
-const OA_ID='@114llsk', rows=[...document.querySelectorAll('.card,.addon')];
+const OA_ID='@114llslk', rows=[...document.querySelectorAll('.card,.addon')];
 function update(){
  let total=0,sel=[];
  rows.forEach(r=>{let p=+r.dataset.price,q=+r.querySelector('.qnum').textContent;if(q){total+=p*q;sel.push({name:r.dataset.name,qty:q,price:p})}});
